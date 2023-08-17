@@ -1,10 +1,38 @@
-# Getting Started with Create React App
+# Otrium Front-end Challenge
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a response to the front-end challenge by Otrium. It includes building a checkbox tree facet component using React. The component displays a tree of checkboxes that allow the user to filter products by categories, with the possibility to select individual or all sub-categories.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+### 1. UI Tree of Checkboxes
+
+The facet component showcases a tree-like structure of checkboxes, mirroring the categories provided by the server response. The primary categories form the root of the tree, with sub-categories branching out further.
+
+### 2. Toggle to Show Children
+
+Parent categories are initially the sole visible elements. Users can reveal child categories by clicking on a parent category, such as "Kleding."
+
+### 3. Selected Category Functionality
+
+Users can add selected categories to the applied filters, providing a clear and convenient overview of their chosen options.
+
+### 4. Removing Selected Categories
+
+The application supports the removal of individual or all selected categories simultaneously.
+
+### 5. Select All Subtree
+
+A "select all" checkbox is present within each child category, allowing the user to select all underlying categories within a specific subtree.
+
+### 6. User Interface Design
+
+The user interface features the Facet Filter on the left and the applied filters on the right. In more extensive applications, the applied filters could be modularized into a separate component, offering greater layout flexibility.
+
+## How to Run
+
+### `npm install`
+
+Install the dependencies
 
 ### `npm start`
 
@@ -14,57 +42,21 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
+## How to Test
+
 ### `npm test`
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## Areas for Improvement
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **CSS**: The existing CSS provides basic styling but lacks structured handling.
+- **Performance Optimization**: Performance can be improved, particularly when handling numerous categories.
+- **Accessibility**: Performance can be improved, particularly when handling numerous categories.
+- **State Management**: Integration with a state management library like Redux would enhance efficiency in managing selected categories within a larger application context.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Screenshots
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<img src="screenshots/Selection.png" alt="Selection" width="400"/>
+<img src="screenshots/SelectAll.png" alt="Select All" width="400"/>
