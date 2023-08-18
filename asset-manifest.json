@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/otrium-challenge/static/css/main.6de6b0de.css",
+    "main.js": "/otrium-challenge/static/js/main.6377f168.js",
+    "static/js/787.f31723e5.chunk.js": "/otrium-challenge/static/js/787.f31723e5.chunk.js",
+    "index.html": "/otrium-challenge/index.html",
+    "main.6de6b0de.css.map": "/otrium-challenge/static/css/main.6de6b0de.css.map",
+    "main.6377f168.js.map": "/otrium-challenge/static/js/main.6377f168.js.map",
+    "787.f31723e5.chunk.js.map": "/otrium-challenge/static/js/787.f31723e5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6de6b0de.css",
+    "static/js/main.6377f168.js"
+  ]
+}
